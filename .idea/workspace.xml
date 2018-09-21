@@ -2,16 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef181d91-580f-4f8d-b432-0e5c12b9e3fc" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/test/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/contacts/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/contacts/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/contacts/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/contacts/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/contacts/migrations/0002_auto_20180920_2114.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/contacts/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/contacts/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/contacts/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/contacts/views.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/contacts/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/contacts/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/contacts/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/contacts/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/contacts/migrations/0002_auto_20180920_2114.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/contacts/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/contacts/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/contacts/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/contacts/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/db.sqlite3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/rest_api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/rest_api/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/rest_api/serelizers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/rest_api/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/rest_api/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/templates/company.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/templates/new_contact/add_contact.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/templates/new_contact/contacts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/templates/new_contact/delete_contacts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/templates/new_contact/update-contacts.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_tz/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_tz/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_tz/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_tz/wsgi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test_tz" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -23,29 +40,82 @@
     <session id="1992124388">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="1" />
+          <entry key="py" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="1" />
+          <entry key="Python" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="py" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="Python" value="5" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test/test_tz/wsgi.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_tz/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="6" selection-start-column="6" selection-end-column="6" />
+              <folding>
+                <element signature="e#641#681#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/test_tz/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/manage.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+              <folding>
+                <element signature="e#22#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -56,6 +126,16 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/test_tz/test_tz/urls.py" />
+        <option value="$PROJECT_DIR$/test_tz/manage.py" />
+        <option value="$PROJECT_DIR$/test_tz/test_tz/settings.py" />
+        <option value="$PROJECT_DIR$/test_tz/test_tz/wsgi.py" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -129,11 +209,11 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2685325" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -159,8 +239,42 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/test_tz/__init__.py">
+    <entry file="file://$PROJECT_DIR$/test/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_tz/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
+          <folding>
+            <element signature="e#641#681#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/manage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="57" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+          <folding>
+            <element signature="e#22#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_tz/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="25" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_tz/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="20" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div>
+    {{ div_title }}
+</div>
+<table border="1">
+
+    {% for new_contact in new_contacts%}
+         <tr>
+
+             <td><a class="btn btn-primary btn-orange" href="{% url 'update-contact' pk=new_contact.pk %}"><span class="glyphicon glyphicon-pencil"></span></a><td>
+
+
+            <td><a href="">{{new_contact.name}}</a><td>
+               <td><a href="">{{new_contact.company}}</a><td>
+                <td><a href="">{{new_contact.email}}</a><td>
+                <td><a href="">{{new_contact.phone}}</a><td>
+                <td><a href="">{{new_contact.interest}}</a><td>
+
+
+
+
+
+ <tr>
+
+        {%endfor%}
+
+
+
+</table>
+
+
+</body>
+</html>

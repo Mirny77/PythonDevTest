@@ -1,0 +1,92 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <!-- Bootstrap-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.min.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400" rel="stylesheet">
+
+    <!-- Custom styles -->
+
+
+
+</head>
+
+{#<link rel="blog" type="application/rss+xml" title="Блог веб-студии BYTEHOUSE" href="bytehouse.ru/blog/feed/">#}
+<body>
+
+
+
+    <input  type="text" onkeyup="myFunction()" id="myInput" placeholder="Search fo names">
+    <ul id = "myUL">
+         {% for the_company in company %}
+
+{#              <a class="btn btn-default" href="{% url 'author_edit' pk=the.id %}"><span class="glyphicon glyphicon-pencil"></span></a>#}
+             <li><a href="">{{the_company.name}}</a></li>
+
+            <li><a href="">{{the_company.country}}</a></li>
+                <li><a href="">{{the_company.region}}</a></li>
+                <li><a href="">{{the_company.city}}</a></li>
+                <li><a href="">{{the_company.house}}</a></li>
+                <li><a href="">{{the_company.office}}</a></li>
+
+
+
+        {%endfor%}
+
+
+
+    </ul>
+
+{#      <a class="btn btn-default" href="{% url 'tag'  %}"> Добавить</a>#}
+
+
+
+
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+     
+
+
+<script>
+
+    function myFunction() {
+    var input, filter,ul,li,a,i;
+
+    input=document.getElementById('myInput');
+    filter=input.value.toUpperCase();
+    ul=document.getElementById('myUL');
+    li=ul.getElementsByTagName('li');
+
+
+    for(i=0;i<li.length;i++)
+    {
+        a=li[i].getElementsByTagName("a")[0];
+        if(a.innerHTML.toUpperCase().indexOf(filter)>-1){
+            li[i].style.display="";
+
+        }
+        else{
+            li[i].style.display="none";
+        }
+    }
+
+
+}
+</script>
+
+
+
+</body>
+</html>
