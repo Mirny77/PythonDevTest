@@ -2,30 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef181d91-580f-4f8d-b432-0e5c12b9e3fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/contacts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/contacts/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/contacts/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/contacts/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/contacts/migrations/0002_auto_20180920_2114.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/contacts/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/contacts/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/contacts/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/contacts/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_tz/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/contacts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/test/contacts/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_tz" beforeDir="false" afterPath="$PROJECT_DIR$/test_tz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_tz/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_tz/contacts/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/test_tz/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_tz/contacts/admin.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_tz/contacts/forms.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_tz/contacts/migrations/0001_initial.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_tz/contacts/migrations/0002_auto_20180920_2114.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_tz/contacts/migrations/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_tz/contacts/models.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_tz/contacts/urls.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_tz/contacts/views.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test_tz/templates/company.html" beforeDir="false" afterPath="$PROJECT_DIR$/test_tz/templates/company.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/contacts/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/contacts/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/contacts/forms.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/contacts/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/contacts/migrations/0002_auto_20180920_2114.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/contacts/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/contacts/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/contacts/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/contacts/views.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,15 +23,29 @@
     <session id="1992124388">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.47" value="1" />
           <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="1" />
         </counts>
       </usages-collector>
     </session>
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -75,7 +75,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -83,15 +82,11 @@
               <item name="PythonDevTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonDevTest" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="PythonDevTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonDevTest" type="462c0819:PsiDirectoryNode" />
-              <item name="test_tz" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -134,7 +129,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26096824" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2647504" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -162,5 +157,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test_tz/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
   </component>
 </project>
