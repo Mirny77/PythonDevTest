@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ef181d91-580f-4f8d-b432-0e5c12b9e3fc" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/test_tz/__init__.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_tz" beforeDir="false" afterPath="$PROJECT_DIR$/test_tz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test_tz/.gitignore" beforeDir="false" />
@@ -18,10 +17,11 @@
     <session id="1992124388">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.38" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
     </session>
@@ -65,25 +65,6 @@
               <item name="PythonDevTest" type="b2602c69:ProjectViewProjectNode" />
               <item name="PythonDevTest" type="462c0819:PsiDirectoryNode" />
               <item name="test_tz" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonDevTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonDevTest" type="462c0819:PsiDirectoryNode" />
-              <item name="test_tz" type="462c0819:PsiDirectoryNode" />
-              <item name="rest_api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonDevTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonDevTest" type="462c0819:PsiDirectoryNode" />
-              <item name="test_tz" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="PythonDevTest" type="b2602c69:ProjectViewProjectNode" />
-              <item name="PythonDevTest" type="462c0819:PsiDirectoryNode" />
-              <item name="test_tz" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-              <item name="new_contact" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -131,7 +112,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25340393" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25718608" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
